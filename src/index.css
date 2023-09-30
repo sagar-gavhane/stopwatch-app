@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.stopwatch h1 {
+  text-align: center;
+}
+
+.stopwatch .button-group {
+  display: flex;
+  gap: 8px;
+}
